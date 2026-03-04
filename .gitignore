@@ -1,6 +1,7 @@
 results/**
 resources/**
 logs/**
+benchmarks/**
 .snakemake
 .snakemake/**
 .DS_Store

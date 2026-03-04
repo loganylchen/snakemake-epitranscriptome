@@ -11,9 +11,9 @@ jobs:
   Formatting:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
       - name: Formatting
-        uses: github/super-linter@v4
+        uses: super-linter/super-linter@v7
         env:
           VALIDATE_ALL_CODEBASE: false
           DEFAULT_BRANCH: main
@@ -23,7 +23,7 @@ jobs:
   Linting:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
     - name: Lint workflow
       uses: snakemake/snakemake-github-action@v1.24.0
       with:
@@ -37,7 +37,7 @@ jobs:
       - Linting
       - Formatting
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
     - uses: eWaterCycle/setup-singularity@v7
       with:
         singularity-version: 3.8.3

@@ -1,3 +1,5 @@
 SampleName	Read1Fastq	Read2Fastq	ToolType
-SRR21356249		SRR21356249.read2.fq.gz	gloritools
-SRR21356250		SRR21356250.read2.fq.gz	gloritools
+# Example entries (replace with your actual samples):
+# sample1		data/sample1_R2.fq.gz	gloritools
+# sample2		data/sample2_R2.fq.gz	gloritools
+# control1		data/control1_R2.fq.gz	gloritools

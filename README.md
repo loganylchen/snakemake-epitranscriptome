@@ -39,5 +39,5 @@ reference:
 
 The usage of this workflow is described in the [Snakemake Workflow Catalog](https://snakemake.github.io/snakemake-workflow-catalog/?usage=loganylchen%2Fsnakemake-epitranscriptome).
 
-If you use this workflow in a paper, don't forget to give credits to the authors by citing the URL of this (original) snakemake-epitranscriptomesitory and its DOI (see above).
+If you use this workflow in a paper, don't forget to give credits to the authors by citing the URL of this (original) repository and its DOI (see above).
 
